@@ -1,0 +1,39 @@
+@media screen and (min-width: 500px) {
+  .pengaturan-page {
+    margin: 200px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .pengaturan-page {
+    margin: 100px;
+  }
+}
+.pengaturan-page{
+  /* margin:100px; */
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #FFFF;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pengaturan-form{
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.pengaturan-button{
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+}
+.button-simpan{
+  padding:10px 20px;
+  background-color:#2775EC;
+  color:#FFFF;
+  border-radius: 5px;
+}
+.button-batal{
+  padding: 10px 20px;
+  color: #2775EC;
+}
+

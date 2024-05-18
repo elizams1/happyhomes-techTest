@@ -1,0 +1,66 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "name":"Azica Mayra",
+  "rate":30000
+}
+
+###
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+  "name":"Eliza Maharani S",
+  "rate":50000
+}
+
+###
+DELETE http://localhost:5000/users/1
+
+###
+GET http://localhost:5000/projects
+
+###
+POST http://localhost:5000/projects
+Content-Type: application/json
+
+{
+  "name_project": "Document"
+}
+
+###
+GET http://localhost:5000/kegiatans
+
+###
+GET http://localhost:5000/kegiatans/1
+
+###
+POST http://localhost:5000/kegiatans
+Content-Type: application/json
+
+{
+  "judul_kegiatan":"Rancangan Aplikasi Toko",
+  "nama_proyek":"Document",
+  "tanggal_mulai":"2020-10-10",
+  "tanggal_berakhir":"2020-10-10",
+  "waktu_mulai":"10:10",
+  "waktu_berakhir":"15:10"
+}
+###
+PATCH http://localhost:5000/kegiatans/1
+Content-Type: application/json
+
+{
+  "judul_kegiatan":"Dokumentasi Perencanaan Aplikasi",
+  "nama_proyek":"Document"
+}
+
+###
+DELETE http://localhost:5000/kegiatans/1

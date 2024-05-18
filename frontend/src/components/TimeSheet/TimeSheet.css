@@ -1,0 +1,19 @@
+@media screen and (min-width: 500px) {
+  .timeSheet-page {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .timeSheet-page {
+    margin: 30px;
+  }
+}
+
+.timeSheet-page {
+  /* margin:100px; */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FFFF;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
