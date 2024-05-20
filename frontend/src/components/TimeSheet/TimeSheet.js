@@ -29,6 +29,7 @@ import TheModal from '../TheModal/TheModal.js';
 
 function format( time){
   // console.log(time);
+  // eslint-disable-next-line no-unused-vars
   const [hour, minute, second] = time.split(':');
   // console.log(hour);
   return `${hour}:${minute}`
@@ -94,6 +95,7 @@ function TimeSheet() {
         console.log(res);
         // alert("update berhasil");
         onClose();
+        alert("Kegiatan berhasil diubah");
         // navigate("/");
         window.location.reload();
       })
@@ -117,6 +119,7 @@ function TimeSheet() {
       .then(function (res){
         console.log(res);
         onClose();
+        alert("Kegiatan berhasil dihapus");
         window.location.reload();
       })
       
@@ -145,6 +148,7 @@ function TimeSheet() {
         console.log(res);
         // alert("update berhasil");
         onClose();
+        alert("Kegiatan berhasil ditambahkan");
         // navigate("/");
         window.location.reload();
       })
