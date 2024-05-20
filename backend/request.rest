@@ -32,7 +32,7 @@ POST http://localhost:5000/projects
 Content-Type: application/json
 
 {
-  "name_project": "Document"
+  "name_project": "Front End Web Developer"
 }
 
 ###
@@ -46,20 +46,20 @@ POST http://localhost:5000/kegiatans
 Content-Type: application/json
 
 {
-  "judul_kegiatan":"Rancangan Aplikasi Toko",
-  "nama_proyek":"Document",
+  "judul_kegiatan":"Rancangan Webiste Kantor",
+  "nama_proyek":"UI Deisgn",
   "tanggal_mulai":"2020-10-10",
   "tanggal_berakhir":"2020-10-10",
   "waktu_mulai":"10:10",
   "waktu_berakhir":"15:10"
 }
 ###
-PATCH http://localhost:5000/kegiatans/1
+PATCH http://localhost:5000/kegiatans/2
 Content-Type: application/json
 
 {
-  "judul_kegiatan":"Dokumentasi Perencanaan Aplikasi",
-  "nama_proyek":"Document"
+   "waktu_mulai":"11:10",
+  "waktu_berakhir":"19:10"
 }
 
 ###

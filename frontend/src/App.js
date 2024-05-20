@@ -17,6 +17,7 @@ function App() {
         <Header/>
         <Routes>
           <Route exact path='/' element={<TimeSheet/>}/>
+          <Route path='/' element={<TimeSheet/>}/>
           <Route path='/pengaturan' element={<Pengaturan/>}/>
         </Routes>
     </ChakraProvider>

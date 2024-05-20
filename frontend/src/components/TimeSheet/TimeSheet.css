@@ -17,3 +17,53 @@
   background-color: #FFFF;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.timeSheet-one{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.timeSheet-two{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.timeSheet-two-secOne{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.btn-add-kegiatan{
+  display: flex;
+  gap: 5px;
+  padding: 5px 10px;
+  align-items: center;
+  background-color: #F0F6FF;
+  color: #2775EC;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-filter{
+  border:1px solid #d9dfe7;
+  padding: 10px;
+  border-radius: 5px;
+  color: #F15858;
+}
+.text-two{
+  font-size:18px !important;
+  font-weight: bold !important;
+}
+.text-three{
+  text-align: center !important;
+}
+.btn-action{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.form-section-one{
+  display: flex;
+  gap: 15px;
+}
